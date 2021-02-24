@@ -90,6 +90,11 @@ app_license = "MIT"
 # Document Events
 # ---------------
 # Hook on document methods and events
+doc_events = {
+    "Customer Signup": {
+        "validate": "signup.api.create_lead",
+    },
+}
 
 # doc_events = {
 # 	"*": {
